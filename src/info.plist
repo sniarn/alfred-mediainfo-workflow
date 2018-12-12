@@ -86,31 +86,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>adduuid</key>
-				<true/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<false/>
-				<key>filename</key>
-				<string>/tmp/mediainfo.txt</string>
-				<key>filetext</key>
-				<string>{query}</string>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>B1B8DC40-94B7-4C87-AE73-679AC099D72F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>acceptsmulti</key>
 				<false/>
 				<key>filetypes</key>
@@ -149,6 +124,31 @@
 			<string>19B62BBD-D139-4652-AFB2-45077C90F06D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<true/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>/tmp/mediainfo.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>B1B8DC40-94B7-4C87-AE73-679AC099D72F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -201,7 +201,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>This is an Alfred workflow for running the CLI version of MediaInfo.</string>
 	<key>uidata</key>
 	<dict>
 		<key>19B62BBD-D139-4652-AFB2-45077C90F06D</key>
@@ -247,6 +247,8 @@
 			<integer>60</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>1.0</string>
 	<key>webaddress</key>
 	<string>https://sniarn.dk</string>
 </dict>
