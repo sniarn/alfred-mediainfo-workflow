@@ -7,8 +7,8 @@ this workflow.
 
 ## Features
 
-This workflow contains a [file
-action](https://www.alfredapp.com/help/workflows/triggers/file-action/) that
+This workflow contains a [File
+Action](https://www.alfredapp.com/help/workflows/triggers/file-action/) that
 processes video/movie files using `mediainfo`. The output is written to a `txt`
 file in `/tmp`, which is then opened in the associated app.
 

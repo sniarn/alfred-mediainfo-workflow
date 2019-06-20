@@ -90,6 +90,7 @@
 				<false/>
 				<key>filetypes</key>
 				<array>
+					<string>+public.audio</string>
 					<string>+public.movie</string>
 				</array>
 				<key>name</key>
@@ -197,11 +198,11 @@
 			<key>uid</key>
 			<string>477AEB3B-6BFA-480B-B25D-FD280AFB6C5F</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This is an Alfred workflow for running the CLI version of MediaInfo.</string>
+	<string>This is an Alfred workflow for running the CLI version of MediaInfo. You need to have MediaInfo installed in /usr/local/bin/mediainfo.</string>
 	<key>uidata</key>
 	<dict>
 		<key>19B62BBD-D139-4652-AFB2-45077C90F06D</key>
@@ -250,6 +251,6 @@
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://sniarn.dk</string>
+	<string>https://github.com/sniarn/alfred-mediainfo-workflow</string>
 </dict>
 </plist>
