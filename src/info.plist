@@ -86,31 +86,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>adduuid</key>
-				<true/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<false/>
-				<key>filename</key>
-				<string>/tmp/mediainfo.txt</string>
-				<key>filetext</key>
-				<string>{query}</string>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>B1B8DC40-94B7-4C87-AE73-679AC099D72F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>acceptsmulti</key>
 				<false/>
 				<key>filetypes</key>
@@ -150,6 +125,31 @@
 			<string>19B62BBD-D139-4652-AFB2-45077C90F06D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<true/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>/tmp/mediainfo.txt</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>B1B8DC40-94B7-4C87-AE73-679AC099D72F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -255,8 +255,10 @@ You need to have MediaInfo installed. The default location is /usr/local/bin/med
 		<key>MEDIAINFO_BIN</key>
 		<string>/usr/local/bin/mediainfo</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/sniarn/alfred-mediainfo-workflow</string>
 </dict>
